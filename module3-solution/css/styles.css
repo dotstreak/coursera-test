@@ -1,0 +1,169 @@
+body {
+  font-size: 16px;
+  color: #4d4d4d;
+  background-color: #e6e6e6;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #00ff99;
+  border-radius: 8;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* FOOD, LLC */
+  font-family: 'Baloo Bhaina', cursive;
+  color: #00cc7a;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  text-align: center;
+}
+
+
+/* assignment 2 css */
+* {
+  box-sizing: border-box;
+}
+h2 {
+  padding-top: 30px;
+  font-size: 2.6em;
+
+}
+h3 {
+  font-size: 175%;
+  position: center;
+  font-weight: lighter;
+  color: #4d4d4d;
+  top: -17px;
+  right: -1px;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  padding: 0px 10px 5px 10px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 300;
+  text-align: left;
+  position: relative;
+  margin-bottom: 27px;
+  top: 10px;
+}
+
+.section1 {
+  background-color: #66ff99;
+  padding: 0.5%;
+  margin: 5px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+        float: left;
+    }
+    .col-lg-1 {
+        width: 8.33%;
+    }
+    .col-lg-2 {
+        width: 16.66%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33%;
+    }
+    .col-lg-5 {
+        width: 41.66%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.33%;
+    }
+    .col-lg-8 {
+        width: 66.66%;
+    }
+    .col-lg-9 {
+        width: 74.99%;
+    }
+    .col-lg-10 {
+        width: 83.33%;
+    }
+    .col-lg-11 {
+        width: 91.66%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+/************* Tablets Only *************/
+@media (min-width: 768px) and (max-width: 991px) {
+     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+        float: left;
+    }
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 74.99%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+/********** Smartphones only **********/
+@media (max-width: 767px) {
+  div {
+    
+  }
+}
